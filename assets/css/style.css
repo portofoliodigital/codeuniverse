@@ -131,12 +131,14 @@ section {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: .3;
+    text-align: left;
 }
 
 .home-content h1 {
     font-size: 5.3rem;
     font-weight: 700;
     margin-bottom: .3rem;
+    text-align: left;
 }
 
 .home-content p {
@@ -323,6 +325,7 @@ span {
 
 .about-content h3 {
     font-size: 2rem;
+    text-align: left;
 }
 
 .about-content p {
