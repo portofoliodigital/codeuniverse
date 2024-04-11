@@ -141,7 +141,7 @@ section {
 
 .home-content p {
     font-size: 1.8rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .home-content .social-media a {
@@ -328,7 +328,7 @@ span {
 .about-content p {
     font-size: 1.8rem;
     margin: 2rem 0 3rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .services {
@@ -513,7 +513,7 @@ span {
 .testimonial-slide p {
     font-size: 1.4rem;
     text-align: center;
-    text-align: justify;
+    text-align: left;
 }
 
 .testimonial-box .swiper-button-next,
@@ -875,7 +875,7 @@ span {
 
     .testimonial-content p {
         font-size: 1.8rem;
-        text-align: justify;
+        text-align: left;
     }
 
     .testimonial-box .swiper-button-next,
