@@ -141,6 +141,7 @@ section {
     font-weight: 700;
     margin-bottom: .3rem;
     text-align: left;
+    color: var(--main-color);
 }
 
 .home-content p {
