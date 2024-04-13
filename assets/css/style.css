@@ -777,7 +777,7 @@ span {
     
     #menu-icon {
         position: absolute;
-        right: 3%;
+        right: 10%;
         top: 50%;
         transform: translateY(-50%);
         display: block;
@@ -788,7 +788,7 @@ span {
 
     #darkMode-icon {
         position: absolute;
-        right: calc(7% + 3.6rem); /* Menggunakan calc() untuk menyesuaikan posisi */
+        right: calc(12% + 3.6rem); /* Menggunakan calc() untuk menyesuaikan posisi */
         top: 50%; /* Menggeser ke tengah secara vertikal */
         transform: translateY(-50%); /* Menyesuaikan untuk menyelaraskan secara vertikal */
         font-size: 3rem;
