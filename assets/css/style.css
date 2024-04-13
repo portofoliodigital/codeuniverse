@@ -330,11 +330,6 @@ span {
     gap: 4rem;
 }
 
-.about-img img {
-    width: 40vw;
-    box-shadow: 0 0 1rem var(--main-color);
-}
-
 .heading {
     font-size: 4.5rem;
     text-align: center;
@@ -929,6 +924,11 @@ span {
     .testimonial-box .swiper-button-prev {
         display: none;
     }
+
+    .footer-text p {
+        margin-top: 5px;
+        margin-bottom: 30px;
+}
 }
 
 @media (max-width: 580px) {
