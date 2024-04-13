@@ -596,6 +596,11 @@ span {
     background: var(--main-color);
 }
 
+.footer-map {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .footer-text p {
     font-size: 1.6rem;
     color: var(--white-color);
