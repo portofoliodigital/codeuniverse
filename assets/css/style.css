@@ -50,6 +50,7 @@ body {
     background: transparent;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Mengatur jarak antara elemen-elemen */
     z-index: 100;
     transition: .5s;
 }
@@ -59,11 +60,26 @@ body {
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 4.5rem;
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--main-color);
     font-weight: 600;
-    margin-right: auto;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin-left: auto;
 }
 
 .navbar a {
@@ -72,14 +88,6 @@ body {
     color: var(--white-color);
     font-weight: 500;
     margin-right: 3.5rem;
-}
-
-.header.sticky .navbar a {
-    color: var(--text-color);
-}
-
-.header.sticky .navbar a.active {
-    color: var(--main-color);
 }
 
 .navbar a.active::before {
@@ -92,9 +100,8 @@ body {
     background: var(--white-color);
 }
 
-.header.sticky .navbar a::before {
-    background: var(--main-color);
-    opacity: .7;
+#darkMode-icon, #menu-icon {
+    margin-right: 10px; /* Atur jarak antara tombol pertama dan kedua */
 }
 
 #darkMode-icon {
@@ -109,9 +116,20 @@ body {
 }
 
 #menu-icon {
-    font-size: 3.6rem;
-    color: var(--text-color);
     display: none;
+}
+
+.header.sticky .navbar a {
+    color: var(--text-color);
+}
+
+.header.sticky .navbar a.active {
+    color: var(--main-color);
+}
+
+.header.sticky .navbar a::before {
+    background: var(--main-color);
+    opacity: .7;
 }
 
 section {
@@ -756,16 +774,21 @@ span {
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
+        font-size: 3.6rem;
+        color: var(--text-color);
+        cursor: pointer;
     }
 
     #darkMode-icon {
         position: absolute;
-        right: 7rem;
-        font-size: 2.6rem;
+        right: calc(7% + 3.6rem); /* Menggunakan calc() untuk menyesuaikan posisi */
+        top: 50%; /* Menggeser ke tengah secara vertikal */
+        transform: translateY(-50%); /* Menyesuaikan untuk menyelaraskan secara vertikal */
+        font-size: 3rem;
         color: var(--text-color);
         margin-bottom: .1rem;
     }
-
+    
     .navbar {
         position: absolute;
         top: 100%;
