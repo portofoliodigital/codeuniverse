@@ -930,9 +930,8 @@ span {
     }
 
     .footer-text p {
-        margin-top: 5px;
         margin-bottom: 30px;
-}
+    }
 }
 
 @media (max-width: 580px) {
