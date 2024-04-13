@@ -622,6 +622,11 @@ span {
     color: #333;
 }
 
+.footer-text, .footer-iconTop {
+    margin-top: 45px;
+}
+
+
 
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
