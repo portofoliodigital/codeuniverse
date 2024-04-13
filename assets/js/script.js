@@ -86,6 +86,30 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 
 
 
+// Fungsi untuk menangani klik pada tautan WhatsApp
+function handleWhatsAppClick(event, message) {
+  event.preventDefault(); // Menghentikan perilaku default dari tautan
+  
+  var adminNumber = "6282210269977"; // Ganti dengan nomor telepon admin
+  
+  // Pesan yang akan dikirim
+  var encodedMessage = encodeURIComponent(message);
+
+  // Buat URL khusus untuk membuka WhatsApp ke chat admin dan membuat pesan otomatis
+  var url = "https://wa.me/" + adminNumber + "?text=" + encodedMessage;
+
+  // Buka tautan WhatsApp di jendela atau tab baru
+  window.open(url, '_blank');
+}
+
+// Ambil tautan WhatsApp dan tambahkan event listener
+var whatsappLink1 = document.getElementById("whatsappLink1");
+whatsappLink1.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin bertanya tentang layanan yang tersedia di CODE UNIVERSE.");
+});
+
+
+
 // HTML FORM TO GOOGLE SHEET
 window.addEventListener("load", function() {
     const form = document.getElementById('my-form');
