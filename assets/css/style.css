@@ -16,6 +16,7 @@
     --text-color: #333;
     --main-color: #FF862F;
     --white-color: #fdfdfd;
+    --green-color: #00814d;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
@@ -132,6 +133,7 @@ section {
     font-weight: 700;
     line-height: .3;
     text-align: left;
+    color: var(--green-color);
 }
 
 .home-content h1 {
@@ -153,7 +155,7 @@ section {
     width: 5rem;
     height: 5rem;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .2rem solid var(--green-color);;
     border-radius: 50%;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
     font-size: 2.5rem;
@@ -163,14 +165,14 @@ section {
 }
 
 .home-content .social-media a:hover {
-    background: var(--main-color);
+    background: var(--green-color);
     color: var(--white-color);
 }
 
 .btn {
     display: inline-block;
     padding: 1.2rem 2.8rem;
-    background: var(--main-color);
+    background: var(--green-color);
     border-radius: .6rem;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
     font-size: 1.6rem;
@@ -183,8 +185,8 @@ section {
 
 .btn:hover {
     background: transparent;
-    color: var(--main-color);
-    border-color: var(--main-color);
+    color: var(--green-color);
+    border-color: var(--green-color);
 }
 
 .home .profession-container {
@@ -311,6 +313,7 @@ span {
 
 .about-img img {
     width: 40vw;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .heading {
@@ -321,6 +324,7 @@ span {
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
+    color: var(--green-color);
 }
 
 .about-content h3 {
@@ -394,6 +398,7 @@ span {
 
 .portfolio h2 {
     margin-bottom: 4rem;
+    color: var(--green-color);
 }
 
 .portfolio .portfolio-container {
@@ -474,6 +479,10 @@ span {
     padding: 5rem 1rem;
 }
 
+.testimonial-container .heading {
+    color: var(--green-color);
+}
+
 .testimonial-container .testimonial-wrapper {
     position: relative;
     max-width: 90rem;
@@ -547,6 +556,7 @@ span {
 
 .contact h2 {
     margin-bottom: 3rem;
+    color: var(--green-color);
 }
 
 .contact form {
@@ -585,6 +595,7 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+    background: var(--green-color);
 }
 
 .footer {
