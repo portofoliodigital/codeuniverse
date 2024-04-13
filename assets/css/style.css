@@ -207,7 +207,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: professionRotate 8s ease-out infinite;
+    animation: professionRotate 5s ease-out infinite;
 }
 
 @keyframes professionRotate {
