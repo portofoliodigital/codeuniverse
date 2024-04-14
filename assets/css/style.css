@@ -934,6 +934,12 @@ span {
         margin-top: -2rem;
     }
 
+    .portfolio p {
+        margin-bottom: 4rem;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
     .testimonial-container .testimonial-wrapper {
         padding: 5rem 0;
     }
