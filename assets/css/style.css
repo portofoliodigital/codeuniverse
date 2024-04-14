@@ -628,6 +628,11 @@ span {
     margin-bottom: 30px;
 }
 
+.footer-map iframe {
+    width: 60rem;
+    height: 30rem;
+}
+
 .footer-text p {
     font-size: 1.6rem;
     color: var(--white-color);
@@ -949,6 +954,11 @@ span {
     .footer-map {
         margin-top: 48px;
         margin-bottom: 30px;
+    }
+
+    .footer-map iframe {
+        width: 35rem;
+        height: 20rem;
     }
 
     .footer-text p {
