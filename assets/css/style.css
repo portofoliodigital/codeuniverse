@@ -942,8 +942,17 @@ span {
         display: none;
     }
 
-    .footer-text p {
+    .footer-iconTop a {
+        margin-top: 2.5px;
+    }
+
+    .footer-map {
+        margin-top: 45px;
         margin-bottom: 30px;
+    }
+
+    .footer-text p {
+        margin-bottom: 2.5px;
     }
 }
 
