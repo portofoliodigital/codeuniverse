@@ -338,7 +338,7 @@ span {
 }
 
 .about-content h2 {
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
     color: var(--green-color);
 }
@@ -415,6 +415,12 @@ span {
 .portfolio h2 {
     margin-bottom: 4rem;
     color: var(--green-color);
+}
+
+.portfolio p {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .portfolio .portfolio-container {
