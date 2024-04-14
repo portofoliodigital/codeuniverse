@@ -643,6 +643,18 @@ span {
     height: 30rem;
 }
 
+.footer-text p a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white-color);
+    margin-top: 30px;
+    transition: margin-left 0.3s ease;
+}
+
+.footer-text p a:hover {
+    margin-left: 10px;
+}
+
 .footer-text p {
     font-size: 1.6rem;
     color: var(--white-color);
