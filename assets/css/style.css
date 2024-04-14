@@ -773,7 +773,9 @@ span {
     }
     
     .logo img {
-        width: 8rem;
+        width: 35px;
+        height: auto;
+        border-radius: 0px;
     }
     
     #menu-icon {
