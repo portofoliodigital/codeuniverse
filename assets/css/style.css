@@ -693,6 +693,12 @@ span {
 
 
 /* BREAKPOINTS */
+@media (max-width: 1800px) {
+    .about-content a {
+        margin-left: 45rem;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -711,7 +717,7 @@ span {
     }
 
     .about-content a {
-        margin-left: 45rem;
+        margin-left: 30rem;
     }
 }
 
@@ -956,9 +962,8 @@ span {
         text-align: center;
     }
 
-    .about-img img {
-        width: 70vw;
-        margin-top: -2rem;
+    .about-content a {
+        margin-left: 1.2rem;
     }
 
     .portfolio h2 {
