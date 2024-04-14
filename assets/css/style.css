@@ -661,6 +661,13 @@ span {
     margin-top: 1rem;
 }
 
+.brand p {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--white-color);
+    margin-top: 3rem;
+}
+
 .footer-iconTop a {
     display: inline-flex;
     justify-content: center;
