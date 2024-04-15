@@ -344,7 +344,8 @@ span {
 }
 
 .about-content h3 {
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 1.9rem;
     text-align: left;
 }
 
@@ -352,6 +353,7 @@ span {
     font-size: 1.9rem;
     margin: 2rem 0 3rem;
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .services {
