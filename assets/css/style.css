@@ -699,6 +699,24 @@ span {
     }
 }
 
+@media (max-width: 1600px) {
+    .about-content a {
+        margin-left: 38.5rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .about-content a {
+        margin-left: 35rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about-content a {
+        margin-left: 30rem;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -717,7 +735,7 @@ span {
     }
 
     .about-content a {
-        margin-left: 30rem;
+        margin-left: 31rem;
     }
 }
 
