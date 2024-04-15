@@ -1084,13 +1084,13 @@ span {
 
     .home-content .social-media a {
         margin-top: 1rem;
-        width: 4rem;
-        height: 4rem;
-        font-size: 2.1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2.5rem;
     }
 
     .btn {
-        margin-top: -8px;
+        margin-top: 1rem;
         font-size: 1.6rem;
     }
         
