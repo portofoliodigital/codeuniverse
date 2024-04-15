@@ -603,9 +603,9 @@ span {
     font-size: 1.9rem;
     color: var(--text-color);
     background: var(--bg-color);
-    border-radius: .8rem;
+    border-radius: 15px;
     margin: .7rem 0;
-    box-shadow: 0px 0px 5px black;
+    border: 2px solid black;
 }
 
 .contact form .input-box input {
