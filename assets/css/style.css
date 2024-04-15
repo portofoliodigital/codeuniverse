@@ -1114,6 +1114,10 @@ span {
     .contact form textarea {
         font-size: 1.8rem;
     }
+
+    .brand p {
+        font-size: 1.9rem;
+    }
 }
 
 @media (max-width: 450px) {
