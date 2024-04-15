@@ -996,6 +996,18 @@ span {
         text-align: left;
     }
 
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.9rem;
+        color: var(--text-color);
+        background: var(--bg-color);
+        border-radius: 15px;
+        margin: .7rem 0;
+        border: 1px solid black;
+    }
+
     .testimonial-container .testimonial-wrapper {
         padding: 5rem 0;
     }
