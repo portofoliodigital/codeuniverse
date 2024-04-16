@@ -576,7 +576,6 @@ span {
 }
 
 .contact {
-    margin-top: -8%;
     min-height: auto;
     padding-bottom: 7rem;
 }
@@ -998,6 +997,10 @@ span {
         margin-bottom: 4rem;
         font-size: 1.9rem;
         text-align: left;
+    }
+
+    .contact {
+        margin-top: -8%;
     }
 
     .contact form .input-box input,
