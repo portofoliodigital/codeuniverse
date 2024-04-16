@@ -977,6 +977,7 @@ span {
     .about {
         flex-direction: column-reverse;
         text-align: center;
+        margin-top: 3rem;
     }
 
     .about-content h2 {
