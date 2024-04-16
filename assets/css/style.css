@@ -1074,7 +1074,7 @@ span {
     }
 
     .home-content h3 {
-        margin-top: 5rem;
+        margin-top: 7rem;
         font-size: 2.1rem;
     }
 
@@ -1092,6 +1092,10 @@ span {
     .btn {
         font-size: 1.6rem;
     }
+
+    .home .profession-container {
+        margin-top: 2rem;
+    }
         
     .home .profession i {
         font-size: 3rem;
@@ -1099,6 +1103,10 @@ span {
 
     .home .profession h3 {
         font-size: 2.5rem;
+    }
+
+    .about {
+        margin-top: 5rem;
     }
 
     .heading {
