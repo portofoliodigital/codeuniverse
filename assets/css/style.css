@@ -42,22 +42,21 @@ body {
 }
 
 .header {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 2rem 7%;
-    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between; /* Mengatur jarak antara elemen-elemen */
     z-index: 100;
-    transition: .5s;
+    transition: 1s;
 }
 
 .header.sticky {
     background: var(--bg-color);
-    box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 
 .logo-wrapper {
