@@ -410,6 +410,7 @@ span {
 }
 
 .portfolio {
+    margin-top: 1rem;
     min-height: auto;
     padding-bottom: 10rem;
 }
